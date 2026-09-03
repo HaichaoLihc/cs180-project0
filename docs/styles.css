@@ -48,6 +48,10 @@ img {
   max-width: 100%;
 }
 
+.submission-url {
+  display: none;
+}
+
 .site-header {
   position: sticky;
   z-index: 20;
@@ -577,6 +581,21 @@ footer p {
     font-size: 11px;
   }
 
+  .submission-url {
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    margin: 0;
+    padding-bottom: 0.06in;
+    border-bottom: 1px solid #d9d2c7;
+    color: #706d66;
+    font-size: 8px;
+    letter-spacing: 0.04em;
+  }
+
   .site-header,
   .scroll-cue {
     display: none;
@@ -603,7 +622,7 @@ footer p {
   }
 
   .project-section {
-    padding: 0.15in 0 0;
+    padding: 0.22in 0 0;
     break-after: page;
   }
 
